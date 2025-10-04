@@ -35,19 +35,6 @@ export function TypingAnimation({ text }: { text: string }) {
   }, [displayedText, isDeleting, loopNum, baseText, deletingSpeed, typingSpeed, delay]);
 
   const renderedText = Array.from(displayedText).map((char, index) => {
-    if (char === '.') {
-      return (
-        <span
-          key={index}
-          className="bg-gradient-to-r from-[#92B4F4] to-[#7868E6] text-transparent bg-clip-text"
-          style={{
-            filter: 'drop-shadow(0 0 0.75rem hsl(var(--primary)/0.5))',
-          }}
-        >
-          {char}
-        </span>
-      );
-    }
     return <span key={index}>{char}</span>;
   });
 

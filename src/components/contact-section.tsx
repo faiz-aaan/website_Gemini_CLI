@@ -64,7 +64,7 @@ export function ContactSection() {
                               className="flex items-center justify-start gap-3 text-muted-foreground transition-colors hover:text-primary"
                             >
                               <Instagram className="h-6 w-6 shrink-0" />
-                              <span>@carpenter.ai</span>
+                              <span>@carpenter.ai_</span>
                             </Link>
                             <GradientButton 
                 href="mailto:carpenter.ai.agency@gmail.com"

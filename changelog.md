@@ -36,6 +36,20 @@ The Carpenter.ai website is a modern, responsive web application built with Next
 
 ## Changelog
 
+### 2025-10-04
+
+*   **Features & Enhancements:**
+    *   **Mobile Friendliness:**
+        *   Adjusted the hero section for better mobile display.
+        *   Analyzed and confirmed mobile-friendliness of other components.
+    *   **UI/UX Improvements:**
+        *   Fixed vertical alignment of the hero section content.
+        *   Added vertical padding to the contact section.
+
+*   **Bug Fixes:**
+    *   **Build Issues:**
+        *   Resolved build errors related to missing dependencies and incorrect import paths.
+
 ### 2025-10-03
 
 *   **Features & Enhancements:**

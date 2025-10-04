@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export function ContactSection() {
   return (
-    <div id="contact" className="container mx-auto px-4 max-w-4xl">
+    <div id="contact" className="container mx-auto px-4 max-w-4xl py-24 sm:py-32">
       <div className="text-center mb-16">
         <h2 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter">Let's Build Together</h2>
         <p className="mt-4 max-w-2xl mx-auto text-muted-foreground text-lg">

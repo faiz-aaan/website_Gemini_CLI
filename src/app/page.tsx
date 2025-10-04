@@ -15,7 +15,7 @@ export default function Home() {
     <div className="flex flex-col min-h-dvh bg-background text-foreground">
       <Header />
       <main className="flex-grow">
-        <section id="home" className="relative h-screen flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-stretch p-4 overflow-hidden">
+        <section id="home" className="relative h-screen flex flex-col lg:flex-row justify-center lg:justify-between items-center items-center p-4 overflow-hidden">
           <div className="flex flex-col items-center text-center w-full lg:w-[65%] z-10">
             <h1 className="relative z-10 text-5xl md:text-7xl lg:text-8xl font-headline tracking-tighter font-bold animate-fade-in min-h-[1.2em] w-[12ch]">
               <TypingAnimation text="carpenter.ai_" />

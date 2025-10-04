@@ -17,7 +17,7 @@ export default function Home() {
       <main className="flex-grow">
         <section id="home" className="relative h-screen flex flex-col lg:flex-row justify-center lg:justify-between items-center items-center p-4 overflow-hidden">
           <div className="flex flex-col items-center text-center w-full lg:w-[65%] z-10">
-            <h1 className="relative z-10 text-5xl md:text-7xl lg:text-8xl font-headline tracking-tighter font-bold animate-fade-in min-h-[1.2em] w-[12ch]">
+            <h1 className="relative z-10 text-5xl md:text-7xl lg:text-8xl font-headline tracking-tighter font-bold animate-fade-in min-h-[1.2em]">
               <TypingAnimation text="carpenter.ai_" />
             </h1>
             <p className="relative z-10 mt-4 text-2xl md:text-3xl lg:text-4xl font-headline text-foreground font-light animate-fade-in animation-delay-500">
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
           <div className="w-full lg:w-[35%] relative h-full flex justify-center items-center">
             <Orb
-              className="relative w-full h-full lg:w-[70%] lg:h-[70%] lg:mx-auto lg:my-auto z-[-1]"
+              className="relative w-full h-1/2 lg:w-[70%] lg:h-[70%] lg:mx-auto lg:my-auto z-[-1]"
               hoverIntensity={0.5}
               rotateOnHover={true}
               hue={0}

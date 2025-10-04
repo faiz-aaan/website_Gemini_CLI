@@ -48,6 +48,8 @@ The Carpenter.ai website is a modern, responsive web application built with Next
         *   Increased the main landing page height to `h-screen` to cover the full viewport.
     *   **Contact Section UI/UX Improvements:**
         *   Rectified alignment of Instagram and Email buttons in the "Contact Us" section, ensuring logos are on the left and content on the right.
+    *   **Vercel Speed Insights Integration:**
+        *   Integrated `@vercel/speed-insights` package and added the `<SpeedInsights />` component to `src/app/layout.tsx` for performance monitoring.
 
 *   **Bug Fixes:**
     *   **"use client" Directive Errors:**
